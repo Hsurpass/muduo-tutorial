@@ -1,5 +1,6 @@
-MUDUO_DIRECTORY ?= $(HOME)/build/debug-install
+# MUDUO_DIRECTORY ?= $(HOME)/build/debug-install
 #MUDUO_DIRECTORY ?= $(HOME)/build/install
+MUDUO_DIRECTORY ?= /mnt/d/WorkSpace/4openSourceCode/MuDuo/build/release-install-cpp11
 MUDUO_INCLUDE = $(MUDUO_DIRECTORY)/include
 MUDUO_LIBRARY = $(MUDUO_DIRECTORY)/lib
 SRC = ../src

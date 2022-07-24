@@ -7,7 +7,8 @@ if(NOT CMAKE_BUILD_TYPE)
 endif()
 
 if(NOT MUDUO_PATH)
-  set(MUDUO_PATH "/home/$ENV{USER}/build/${CMAKE_BUILD_TYPE}-install")
+  # set(MUDUO_PATH "/home/$ENV{USER}/build/${CMAKE_BUILD_TYPE}-install")
+  set(MUDUO_PATH "/mnt/d/WorkSpace/4openSourceCode/MuDuo/build/release-install-cpp11")
 endif()
 
 set(CXX_FLAGS
