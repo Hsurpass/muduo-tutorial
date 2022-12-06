@@ -69,7 +69,8 @@ void setLogging(const char* argv0)
 {
   muduo::Logger::setOutput(asyncOutput);
   char name[256];
-  strncpy(name, argv0, 256);
+  // strncpy(name, argv0, 256);
+  strncpy(name, argv0, 256-1);
   g_asyncLog.reset(new muduo::AsyncLogging(::basename(name), kRollSize));
   g_asyncLog->start();
 }
